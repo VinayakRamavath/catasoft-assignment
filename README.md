@@ -3,12 +3,10 @@ Node Module with a `findServer()` function which should return a Promise that ei
     a. Resolves with the online server that has the lowest priority number.
     b. Rejects with an error, if no Servers are online.
 
-I've used 'axios' package to make http requests, 'nock' package to setup a mock server for running unit testcases. Used 'chai' & 'mocha' to run those tests.
+I've used `axios` package to make http requests, `nock` package to setup a mock server for running unit testcases. Used `chai` & `mocha` to run those tests.
 
 # Prerequisites
-Node 10+ version
-Npm 5+ version
-
+Node 10.0+, Npm 5.0+
 
 # Steps to install
 Clone the repository, move into the project's root directory and use below commands to run the module
